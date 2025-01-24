@@ -1,0 +1,22 @@
+name: masked_youtube_web
+description: A Flutter web app that is password protected and embeds a YouTube video with masking.
+
+publish_to: 'none' # Change this if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=2.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0  # Updated to the latest compatible version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
